@@ -1,11 +1,6 @@
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-# from utils.constants import (
-#     IMAGE_BATCH_PIPELINE,
-#     BATCH_PIPELINE_SILVER_RPATH,
-#     BATCH_PIPELINE_SILVER_DIR
-# )
 
 # Define default arguments for the DAG
 default_args = {
